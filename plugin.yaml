@@ -1,0 +1,8 @@
+name: "setup"
+version: "0.1.0"
+usage: "Set up cluster and local env for Draft"
+description: "Set up developer environment with Kubernetes, helm, and draft"
+ignoreFlags: false
+useTunnel: false
+command: "$HELM_PLUGIN_DIR/setup"
+
